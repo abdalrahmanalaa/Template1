@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\animate.min.css">
+    <link rel="stylesheet" href="css\hover.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js\html5shiv.min.js"></script>
+    <script src="js\respond.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hvr-bounce-in" href="#">Delicious<span>_Meals</span></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+              <ul class="nav navbar-nav navbar-right">
+                  <li id="about" onclick="myAbout()" class="about hvr-bounce-in"><a href="">About</a></li>
+                  <li class="fru hvr-bounce-in"><a href="#">Map</a></li>
+  
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="active hvr-grow-shadow"><a href="#">Meals <span class="sr-only">(current)</span></a></li>
+                      <li class="menu hvr-pop"><a href="#">Menu</a></li> 
+                      
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Fast Food</a></li>
+                            <li><a href="#">Macaroni</a></li>
+                            <li><a href="#">Barbecue</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">fruits</a></li>
+                          </ul>
+                        </li>
+                  </ul>
+              
+                </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <section class=big-photo>
+        <div class="container">
+          <div class="chicken">
+            <h1 class="information hvr-bounce-in wow bounceInRight" data-wow-duration="5s" data-wow-delay="0.5s">Welcome To Delicious Meals</h1>
+            <p class="information hvr-bounce-in wow bounceInLeft" data-wow-duration="5s" data-wow-delay="1s">Use our GPS technology to locate yourself, choose your favorite restaurant and meal, and checkout. Otlob allows you to pay however you prefer and save your delivery details for easy reordering. </p>
+            <button type="button" class="btn btn-outline-dark mybutton hvr-backward wow bounceInRight" data-wow-duration="4s" data-wow-delay="1s">See all Food</button>
+          </div>
+        </div>
+    </section>
+   
+      <div class="bg-video">
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" class="video hvr-float wow bounceInLeft" data-wow-duration="5s">
+              <source src="Pexels Videos 1111421.mp4">
+          </video>
+
+          <form class="content hvr-backward wow bounceInRight" data-wow-duration="3s" data-wow-delay="0.3s">
+            <label class="email hvr-pop">E-mail</label>
+            <input type="email" placeholder="Username" class="input hvr-grow-shadow">
+            <br>
+            <label class="pass hvr-grow-shadow">Password</label>
+            <input type="password" placeholder="pass" class="input hvr-forward">
+            <br>
+            <label class="hvr-bounce-in">Message</label>
+            <textarea rows="4" cols="20" class="text hvr-forward"></textarea>
+            <br>
+            <input type="button" value="send" class="btn btn-info hvr-grow-shadow" id="seend" onclick="myInput()">
+          </form>
+        
+      </div>
+
+              <section class="setteing text-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="set col-lg-4 col-md-4 col-sm-12 col-xs-12 wow zoomInUp" data-wow-duration="4s" data-wow-delay="0.2s">                  
+                          <span class="glyphicon glyphicon-cog hvr-bounce-in"></span>
+                          <h2>Setteing</h2>
+                          <p class="php hvr-grow-shadow">Use our GPS technology to locate yourself, choose your favorite meal, and checkout. allows you to pay however you prefer and save your delivery details for easy reordering.
+                            </p>
+                      </div>
+  
+                      <div class="set col-lg-4 col-md-4 col-sm-12 col-xs-12 wow zoomInDown" data-wow-duration="4s" data-wow-delay="0.2s">                  
+                          <span class="glyphicon glyphicon-globe hvr-wobble-vertical"></span>
+                          <h2>Service</h2>
+                          <p class="php hvr-bounce-in">We do all the services like delivery to the desired place , you can order online , you can find out how much time is left to deliver and in the end we strive to satisfy you
+                          </p>
+                      </div>
+  
+                      <div class="set col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeInRightBig" data-wow-duration="4s" data-wow-delay="0.2s">                  
+                          <span class="glyphicon glyphicon-cutlery hvr-pop"></span>
+                          <h2>Menu</h2>
+                          <p class="php hvr-wobble-vertical">We do all kinds of food like Pizza , Pasta , Shawarma , Burger , Grilled , Sandwiches , Seafood , Mexican , Italian , Japanese , Chinese , Oriental Food , Western.
+                          </p>
+                      </div>
+
+                    </div>
+                  </div>
+              </section>
+
+              <section class="photo">
+                  <div class="container">
+                    <div class="ourfood">
+                      <h1 class="information hvr-bounce-in wow bounceInRight" data-wow-duration="5s" data-wow-delay="0.5s">Welcome To Delicious Meals</h1>
+                      <p class="information hvr-bounce-in wow bounceInRight" data-wow-duration="5s" data-wow-delay="1s">Use our GPS technology to locate yourself, choose your favorite restaurant and meal, and checkout. Otlob allows you to pay however you prefer and save your delivery details for easy reordering. </p>
+                    </div>
+                  </div>
+              </section>
+        
+              <section class="photoday">
+                  <div class="row">
+                    <div>
+                        <img src="appetizer-asian-food-chili-1234535.jpg">
+                    </div>
+                    <div>
+                        <img src="asian-food-bowl-cuisine-699953.jpg">
+                    </div>
+                  </div>
+              </section>
+
+                <section class="Imageph">
+                    <div class="row">
+                      <div>
+                          <img src="appetizer-asian-food-chili-1234535.jpg" class="photofood img-circle wow bounceInLeft" data-wow-duration="5s" data-wow-delay="0.5s">
+                      </div>
+                      <div class="cook">
+
+                        <h2 class="heh hvr-float wow zoomIn" data-wow-duration="5s" data-wow-delay="0.5s">Who we are!?</h2>
+                        <p class="hph hvr-float wow bounceInRight" data-wow-duration="5s" data-wow-delay="1s">Delicious is Egyptian foodies favorite food ordering app and website. We put thousands of top international and local restaurants into your hands. Find, sort, filter, rate, and order all with a couple easy taps. Delicious will take care of the rest.</p>
+
+                        <h2 class="heh hvr-float wow zoomIn" data-wow-duration="5s" data-wow-delay="0.5s">What we do!?</h2>
+                        <p class="hph hvr-float wow zoomIn" data-wow-duration="5s" data-wow-delay="1s">Delicious is Egypt's biggest food ordering services and operates in more than 25 cities. Customers can order from more than 2,000 restaurants with a couple taps, and Delicious will manage the rest.</p>
+
+                        <h2 class="heh hvr-float wow bounceInRight" data-wow-duration="5s" data-wow-delay="0.5s">Start your experience!?</h2>
+                        <p class="hph hvr-float wow bounceInRight" data-wow-duration="5s" data-wow-delay="1s">Use our GPS technology to locate yourself, choose your favorite restaurant and meal, and checkout.Delicious allows you to pay however you prefer and save your delivery details for easy reordering.</p>
+                      </div>
+                    </div>
+                </section>
+                  
+                <section class="Image text-center">
+                   <div class="container">
+                     <div class="row">
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bubble-left wow bounceInLeft" data-wow-duration="12s" data-wow-delay="0.3s">
+                               <a href="#" class="thumbnail">
+                                 <img src="barbecue-bbq-chicken-106343.jpg" class="thum" alt="Barbecue"> 
+                               </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-float wow bounceInDown" data-wow-duration="12s" data-wow-delay="0.3s">
+                                <a href="#" class="thumbnail">
+                                  <img src="beef-bread-buns-1633578.jpg" alt="...">
+                                </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-forward wow bounceInDown" data-wow-duration="12s" data-wow-delay="0.3s">
+                                <a href="#" class="thumbnail">
+                                  <img src="avocado-cooked-delicious-262959.jpg" alt="...">
+                                </a>
+                              </div>
+                              
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow bounceInRight" data-wow-duration="12s" data-wow-delay="0.3s">
+                                <a href="#" class="thumbnail">
+                                  <img src="close-up-dinner-fish-46239.jpg" alt="...">
+                                </a>
+                             </div>
+
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bubble-left wow bounceInLeft" data-wow-duration="14s" data-wow-delay="0.5s">
+                                <a href="#" class="thumbnail">
+                                   <img src="bake-baked-basil-236798.jpg" class="thum" alt="...">
+                                </a>
+                             </div>
+
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-grow-shadow wow bounceInLeft" data-wow-duration="14s" data-wow-delay="0.5s">
+                                  <a href="#" class="thumbnail">
+                                    <img src="cheese-close-up-crust-2741457.jpg" alt="...">
+                                  </a>
+                             </div>
+
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow bounceInLeft" data-wow-duration="14s" data-wow-delay="0.5s">
+                                  <a href="#" class="thumbnail">
+                                    <img src="barbecue-blur-chicken-209406.jpg" alt="...">
+                                  </a>
+                             </div>
+                                                       
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow bounceInLeft" data-wow-duration="14s" data-wow-delay="0.5s">
+                                  <a href="#" class="thumbnail">
+                                    <img src="bacon-beef-bread-3052362.jpg" alt="...">
+                                  </a>
+                             </div>
+
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bubble-left wow fadeInLeft" data-wow-duration="12s" data-wow-delay="0.3s">
+                                <a href="#" class="thumbnail">
+                                    <img src="cake-chocolate-crumbs-53468.jpg" class="thum" alt="...">
+                                  </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow fadeInLeft" data-wow-duration="12s" data-wow-delay="0.3s">
+                                  <a href="#" class="thumbnail">
+                                  <img src="cake-chocolate-chocolate-cake-132694.jpg" alt="...">
+                                </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-forward wow bounceInRight" data-wow-duration="12s" data-wow-delay="0.5s">
+                                <a href="#" class="thumbnail">
+                                  <img src="baked-blurred-background-cake-1998635.jpg" alt="...">
+                                </a>
+                              </div>
+                              
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow bounceInRight" data-wow-duration="12s" data-wow-delay="0.5s">
+                                <a href="#" class="thumbnail">
+                                  <img src="blur-close-up-dairy-product-376464.jpg" alt="...">
+                                </a>
+                             </div>
+
+                             <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bubble-left wow fadeInLeft" data-wow-duration="8s" data-wow-delay="0.2s">
+                                <a href="#" class="thumbnail">
+                                    <img src="berries-blueberry-brown-718739.jpg" class="thum" alt="...">
+                                  </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-bounce-in wow zoomIn" data-wow-duration="8s" data-wow-delay="0.2s">
+                                  <a href="#" class="thumbnail">
+                                  <img src="breakfast-butter-close-up-2777627.jpg" alt="...">
+                                </a>
+                              </div>
+                      
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-grow-shadow wow zoomIn" data-wow-duration="8s" data-wow-delay="0.2s">
+                                  <a href="#" class="thumbnail">
+                                  <img src="cake-chocolate-cream-slice-39381.jpg" alt="...">
+                                </a>
+                              </div>
+                                                   
+                              <div class="col-lg-3 col-xs-6 col-md-3 col-sm-6 hvr-float wow fadeInRight" data-wow-duration="8s" data-wow-delay="0.2s">
+                                <a href="#" class="thumbnail">
+                                  <img src="berries-blueberries-blur-533263.jpg" alt="...">
+                                </a>
+                             </div>
+
+                  </div>
+                </div>
+            </section>
+ 
+                    <section class="list-group">
+                      <div class="container">
+                        <div class="row">
+
+                         <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-home"></span>
+                            <h4 class="list-group-item-heading hvr-wobble-vertical">Welcome to resturant</h4>
+                            <p class="list-group-item-text">We offer you all the Delicious food like Pizza, pastries, Macaroni</p>
+                         </a>
+
+                         <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-retweet"></span>
+                            <h4 class="list-group-item-heading hvr-wobble-vertical">Aderss .. -->> </h4>
+                            <p class="list-group-item-text">Zamalek district, Street 156 Building 67</p>
+                         </a>
+
+                          <a href="#" class="list-group-item active">
+                            <span class="glyphicon glyphicon-phone"></span>
+                            <h4 class="list-group-item-heading hvr-wobble-vertical">Phone Number</h4>
+                            <p class="list-group-item-text">01008698567 / Another Call .. -->> 01156471990</p>
+                          </a>
+        
+                        <div>
+                      </div>
+                    </section>
+        
+                    <section class="footer text-center">
+                        <div class="row">
+                                              
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <h5 class="h5 hvr-pop">Popular Cuisines</h5> 
+                                    <ul class="list-unstyled three-columns">
+                                      <li>Pizaa</li>
+                                      <li>Pasta</li>
+                                      <li>Shawerma</li>
+                                      <li>Burgers</li>
+                                      <li>Grills</li>
+                                      <li>Sandwiches</li>
+                                      <li>Seafood</li>
+                                      <li>Mexican</li>
+                                      <li>Italian</li>      
+                                    </ul>                               
+                                  <img src="appetizer-bacon-cuisine-2097090.jpg" class="photoid wow bounceInLeft" data-wow-duration="3s">
+                                  <img src="baking-cheese-crust-315755.jpg"  class="photoid wow bounceInLeft" data-wow-duration="3s">
+                                  <img src="basil-blur-cheese-1279330.jpg" class="photoid wow bounceInLeft" data-wow-duration="3s">
+                                  <img src="bowl-cuisine-delicious-803963.jpg" class="photoid wow bounceInLeft" data-wow-duration="3s">
+                                </div>
+                                  
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                      <h5 class="h5 hvr-bounce-in">Payment</h5>
+                                      <ul class="list-unstyled three-columns">
+                                        <li>Bitcoin</li>
+                                        <li>Visa Card</li>
+                                        <li>Master Card</li>
+                                        <li>Skrill</li>
+                                        <li>Western union</li>
+                                        <li>Paypal</li>
+                                        <li>cirrus</li>
+                                        <li>Wirecard</li>
+                                        <li>Postepay</li>
+                                      </ul>
+                                          <ul class="list-unstyled social-list text-center wow bounceInRight" data-wow-duration="3s">
+                                          <li><img src="iconfinder_payment_method_bitcoin_206681.png"></li>
+                                          <li><img src="iconfinder_payment_method_card_visa_206684.png"></li>
+                                          <li><img src="iconfinder_payment_method_master_card_206680.png"></li>
+                                          <li><img src="iconfinder_payment_method_skrill_206679.png"></li>
+                                          <li><img src="iconfinder_payment_method_western_union_206677.png"></li>
+                                          <li><img src="iconfinder_payment_method_paypal_206675.png"></li>
+                                      </ul>
+                                      <ul class="list-unstyled social-list text-center wow bounceInRight" data-wow-duration="3s">
+                                          <li><img src="iconfinder__cirrus_2487599.png"></li>
+                                          <li><img src="iconfinder__wirecard_2487612.png"></li>
+                                          <li><img src="iconfinder__postepay_2487605.png"></li>        
+                                      </ul>
+                                    </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                      <h5 class="h5 hvr-bounce-in">Contact Us</h5>
+                                    <ul class="list-unstyled three-columns">
+                                      <li>Youtube</li>
+                                      <li>Tiwtter</li>
+                                       <li>WhatsUp</li> 
+                                      <li>Facebook</li>
+                                      <li>Instagram</li>
+                                      <li>Google</li>
+                                      <li>Youtube</li>
+                                      <li>Tiwtter</li>
+                                      <li>WhatsUp</li>                                
+                                    </ul>
+                                    <ul class="list-unstyled social-list text-center wow bounceInRight" data-wow-duration="3s">
+                                        <li><img src="instagram.png"></li>
+                                        <li><img src="youtube (2).png"></li>
+                                        <li><img src="facebook (2).png"></li>
+                                        <li><img src="whatsapp (2).png"></li>
+                                        <li><img src="twitter (1).png"></li>
+                                        <li><img src="google-plus.png"></li>
+                                    </ul>
+                                  </div>
+                        </div>
+                      <div class="copyright wow bounceInLeft" data-wow-duration="5s">
+                        Copyright &copy; 2019 <span>Delicious</span>.Meals
+                      </div>
+                    </section>
+
+    <script src= "https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+</html>
